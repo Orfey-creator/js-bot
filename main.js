@@ -21,6 +21,7 @@ const checkNum = function(n) {
 
 const game = function() {
   gameNumber = Math.floor(Math.random() * (100 - 1)) + 1;
+  console.log(gameNumber);
   const innerGame = function () {
     playerNumber = prompt("Угадай число от 1 до 100");
     console.log(playerNumber);
